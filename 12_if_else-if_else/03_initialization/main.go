@@ -6,7 +6,7 @@ func main() {
 
     b:=true
 
-    if  b {
-        fmt.Println("food")
+    if  food := "chocolate"; b {
+        fmt.Println(food)
     }
 }
